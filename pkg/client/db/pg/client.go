@@ -6,7 +6,7 @@ import (
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/pkg/errors"
 
-	"github.com/armanbektassov/go_auth/internal/client/db"
+	"github.com/armanbektassov/platform_common/pkg/client/db"
 )
 
 type pgClient struct {

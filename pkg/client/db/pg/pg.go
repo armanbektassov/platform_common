@@ -10,8 +10,8 @@ import (
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/armanbektassov/go_auth/internal/client/db"
-	"github.com/armanbektassov/go_auth/internal/client/db/prettier"
+	"github.com/armanbektassov/platform_common/pkg/client/db"
+	"github.com/armanbektassov/platform_common/pkg/client/db/prettier"
 )
 
 type key string
